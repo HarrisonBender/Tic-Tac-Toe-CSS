@@ -1,11 +1,12 @@
-.board {
+
+#board {
   text-align: center;
   padding-top: 3em;
 }
 
 .row {
   width: 302px;
-  margin: auto;
+  margin: 0 auto;
   clear: both;  
 }
 
@@ -31,7 +32,7 @@
     border-left: 1px black solid;
 }
 
-div:hover {
+.row > div:hover {
 
     cursor: pointer;
 }
